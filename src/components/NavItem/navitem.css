@@ -1,0 +1,21 @@
+.navItem {
+    height: 60px;
+    width: 60px;
+    margin: 0 10px;
+    text-align: center;
+    color: white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.navItem:hover {
+    background-color: orange;
+}
+
+.navItem p {
+    font-size: 10px;
+}
